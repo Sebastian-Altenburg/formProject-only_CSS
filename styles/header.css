@@ -1,0 +1,42 @@
+.header {
+    width: 100%;
+    height: 50px;
+    /* background-color: darkolivegreen; */
+}
+.innerHeader {
+    width: 500px;
+    height: 100%;
+    /* background-color: darkorange; */
+    float: right;
+}
+.textHeader {
+    height: 100%;
+    display: table;
+    /* background-color: darkviolet; */
+    float: right;
+    margin-right: 5px;
+}
+.textHeader h3 {
+    color: #6B6C72;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: arial;
+    font-size: 0.75em;
+    font-weight: lighter;
+}
+
+.btnHeader {
+    position: relative;
+    height: 100%;
+    width: 20%;
+    /* background-color: dimgrey; */
+    float: right;
+    margin-right: 30px;
+}
+.btnHeader button {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    margin-top: -17.5px;
+}

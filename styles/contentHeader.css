@@ -1,0 +1,15 @@
+.contentHeader {
+    /* background-color: lime; */
+    text-align: center;
+    /* height: 45px; */
+}
+.contentHeader h1 {
+    font-size: 40px;
+    color: #8C9096;
+}
+.contentHeader ul > li{
+    display: inline-block;
+    font-size: 1.3em;
+    margin-bottom: 20px;
+    color: #8C9096;
+}
